@@ -1,0 +1,49 @@
+{
+  "trained_at": "2026-09-22T17:20:40.303310",
+  "k": 4,
+  "n_reviews": 562,
+  "silhouette": 0.04905589641635894,
+  "davies_bouldin": 6.058220167274794,
+  "top_terms": {
+    "0": [
+      "whatsapp",
+      "aplicativo",
+      "ruim",
+      "pra",
+      "horrivel",
+      "fica",
+      "nao",
+      "conta"
+    ],
+    "1": [
+      "nao",
+      "consigo",
+      "whatsapp",
+      "nao consigo",
+      "conta",
+      "usar",
+      "app",
+      "nada"
+    ],
+    "2": [
+      "nao",
+      "boa",
+      "app",
+      "otimo",
+      "porque",
+      "pessimo",
+      "agora",
+      "nada"
+    ],
+    "3": [
+      "bom",
+      "dia",
+      "bom dia",
+      "muita",
+      "conversar",
+      "gostei",
+      "pessoas",
+      "possivel"
+    ]
+  }
+}

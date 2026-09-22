@@ -1,0 +1,180 @@
+{
+  "trained_at": "2026-09-22T17:39:41.096200",
+  "best_model": "logistic_regression",
+  "n_samples": 3000,
+  "class_distribution": {
+    "POSITIVO": 2297,
+    "NEGATIVO": 562,
+    "NEUTRO": 141
+  },
+  "results": [
+    {
+      "name": "naive_bayes",
+      "accuracy": 0.8216666666666667,
+      "f1_macro": 0.47128488121795625,
+      "roc_auc_ovr": 0.7684361480494294,
+      "report": {
+        "NEGATIVO": {
+          "precision": 0.7719298245614035,
+          "recall": 0.3893805309734513,
+          "f1-score": 0.5176470588235295,
+          "support": 113.0
+        },
+        "NEUTRO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 28.0
+        },
+        "POSITIVO": {
+          "precision": 0.8268876611418048,
+          "recall": 0.9782135076252724,
+          "f1-score": 0.8962075848303394,
+          "support": 459.0
+        },
+        "accuracy": 0.8216666666666667,
+        "macro avg": {
+          "precision": 0.5329391619010694,
+          "recall": 0.45586467953290793,
+          "f1-score": 0.47128488121795625,
+          "support": 600.0
+        },
+        "weighted avg": {
+          "precision": 0.777949177732545,
+          "recall": 0.8216666666666667,
+          "f1-score": 0.783088998473641,
+          "support": 600.0
+        }
+      },
+      "confusion": [
+        [
+          44,
+          0,
+          69
+        ],
+        [
+          3,
+          0,
+          25
+        ],
+        [
+          10,
+          0,
+          449
+        ]
+      ]
+    },
+    {
+      "name": "logistic_regression",
+      "accuracy": 0.735,
+      "f1_macro": 0.501013095579221,
+      "roc_auc_ovr": 0.7457377634992369,
+      "report": {
+        "NEGATIVO": {
+          "precision": 0.49242424242424243,
+          "recall": 0.5752212389380531,
+          "f1-score": 0.5306122448979592,
+          "support": 113.0
+        },
+        "NEUTRO": {
+          "precision": 0.09433962264150944,
+          "recall": 0.17857142857142858,
+          "f1-score": 0.12345679012345678,
+          "support": 28.0
+        },
+        "POSITIVO": {
+          "precision": 0.8939759036144578,
+          "recall": 0.8082788671023965,
+          "f1-score": 0.8489702517162472,
+          "support": 459.0
+        },
+        "accuracy": 0.735,
+        "macro avg": {
+          "precision": 0.4935799228934032,
+          "recall": 0.5206905115372927,
+          "f1-score": 0.501013095579221,
+          "support": 600.0
+        },
+        "weighted avg": {
+          "precision": 0.7810339809782296,
+          "recall": 0.735,
+          "f1-score": 0.7551555322244727,
+          "support": 600.0
+        }
+      },
+      "confusion": [
+        [
+          65,
+          13,
+          35
+        ],
+        [
+          14,
+          5,
+          9
+        ],
+        [
+          53,
+          35,
+          371
+        ]
+      ]
+    },
+    {
+      "name": "svm_linear",
+      "accuracy": 0.81,
+      "f1_macro": 0.45621435095119306,
+      "roc_auc_ovr": 0.7539934295471763,
+      "report": {
+        "NEGATIVO": {
+          "precision": 0.7068965517241379,
+          "recall": 0.36283185840707965,
+          "f1-score": 0.47953216374269003,
+          "support": 113.0
+        },
+        "NEUTRO": {
+          "precision": 0.0,
+          "recall": 0.0,
+          "f1-score": 0.0,
+          "support": 28.0
+        },
+        "POSITIVO": {
+          "precision": 0.8210332103321033,
+          "recall": 0.9694989106753813,
+          "f1-score": 0.8891108891108891,
+          "support": 459.0
+        },
+        "accuracy": 0.81,
+        "macro avg": {
+          "precision": 0.5093099206854137,
+          "recall": 0.44411025636082035,
+          "f1-score": 0.45621435095119306,
+          "support": 600.0
+        },
+        "weighted avg": {
+          "precision": 0.7612225898121051,
+          "recall": 0.81,
+          "f1-score": 0.7704817210080368,
+          "support": 600.0
+        }
+      },
+      "confusion": [
+        [
+          41,
+          0,
+          72
+        ],
+        [
+          3,
+          0,
+          25
+        ],
+        [
+          14,
+          0,
+          445
+        ]
+      ]
+    }
+  ]
+}
