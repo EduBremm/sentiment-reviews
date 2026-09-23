@@ -1,5 +1,5 @@
 {
-  "trained_at": "2026-09-22T17:53:41.788414",
+  "trained_at": "2026-09-22T17:55:04.380886",
   "best_model": "logistic_regression",
   "n_samples": 3000,
   "class_distribution": {
